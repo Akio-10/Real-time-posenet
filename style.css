@@ -1,0 +1,54 @@
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    background-color: blue;
+
+
+}
+
+.note {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-decoration: wavy rgb(255, 255, 255) underline; 
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: green;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    line-height: 3;
+    text-align: center;
+    transition: color 1s, background-color 1s;
+}
+
+.copy_right_footer:hover {
+    color: blue;
+    background-color: green;
+    cursor: pointer;
+}
+
+body {
+    background-color: white;
+}
+
+.heading {
+    transition: all 1s;
+}
+
+.heading:hover {
+    background-color: green;
+}
+
+canvas {
+    transform: translateY(200px);
+    margin-left: 200px;
+}
+
+video {
+    transform: translateY(250px);
+    margin-left: 200px;
+}
